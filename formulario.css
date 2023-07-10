@@ -1,0 +1,60 @@
+
+* :not(){
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    flex-direction: column;
+    font-family: "roboto";
+    background-color: white;
+    background: -webkit-linear-gradient(to rigth rgb(233, 138, 138), pink);
+    background: -linear-gradient(to rigth rgb(235, 140, 140), pink);
+    height: 650;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+padding-bottom: 1rem;
+}
+
+form{
+    background: white;
+    padding: 40px;
+    box-shadow: 0 0 6px;
+    border-radius: 10px;
+    margin-top: 9rem;
+    margin: 5rem;
+}
+.form{
+    width: 100%;
+    margin:auto;
+
+}
+
+.grupo{
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: unset;
+    cursor: pointer;
+}
+
+.barra{
+    display: inline-block;
+    width: 20px;
+    aspect-ratio: 1;
+    line-height: 20px;
+    position: absolute;
+}
